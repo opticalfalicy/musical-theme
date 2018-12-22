@@ -1,1 +1,1 @@
-musical-theme
+musical-wordpress-theme
