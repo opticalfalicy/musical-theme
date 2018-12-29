@@ -1,10 +1,12 @@
 <?php
-    function myFunc($banddude, $lyric){
-        echo "<p>Hi, my name is $banddude, The world is a $lyric.</p>";
+
+    $names = array('Brett', 'Bert', 'Bort');
+
+    $count = 0;
+
+    while($count < count($names)){
+        echo "<li>Hi, my name is $names[$count] </li>";
+        $count++;
     }
 
-    myFunc('Billy', 'vampire');
 ?>
-
-<h1><?php bloginfo('name')?></h1>
-<p><?php bloginfo('description')?></p>
